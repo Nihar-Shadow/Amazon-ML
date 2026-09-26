@@ -1,0 +1,4 @@
+split_name,s1_count,percentage,seed,file_path
+train,1765457,80.00%,42,eda\train_s1_ids.txt
+validation,441364,20.00%,42,eda\val_s1_ids.txt
+total,2206821,100.00%,42,datasets/train/train_source1.tsv

@@ -1,0 +1,16 @@
+file_name,split,source,country,count,percentage
+train_source1.tsv,train,source1,US,1323633,59.98%
+train_source1.tsv,train,source1,India,883188,40.02%
+train_source2.tsv,train,source2,US,3016817,59.92%
+train_source2.tsv,train,source2,India,2017799,40.08%
+train_source3.tsv,train,source3,US,3170056,59.98%
+train_source3.tsv,train,source3,India,2115547,40.02%
+test_source1.tsv,test,source1,India,809986,46.75%
+test_source1.tsv,test,source1,US,663106,38.27%
+test_source1.tsv,test,source1,France,259452,14.98%
+test_source2.tsv,test,source2,India,2312565,47.32%
+test_source2.tsv,test,source2,US,1871330,38.29%
+test_source2.tsv,test,source2,France,703378,14.39%
+test_source3.tsv,test,source3,India,2405000,47.32%
+test_source3.tsv,test,source3,US,1945701,38.28%
+test_source3.tsv,test,source3,France,731615,14.40%

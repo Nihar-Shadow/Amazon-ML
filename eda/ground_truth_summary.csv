@@ -1,0 +1,11 @@
+metric,value,percentage_of_total,description
+total_source1_entities,2206821,100.00%,Total number of Source 1 entities in ground truth
+unique_source1_entities,2206821,100.00%,Unique Source 1 entity IDs in ground truth
+zero_matches,123247,5.58%,Source 1 entities with no matches in S2 or S3
+single_match,119157,5.40%,Source 1 entities with exactly 1 matched entity
+multiple_matches,1964417,89.02%,Source 1 entities with >=2 matched entities
+total_s2_matches,3693619,-,Total Source 2 entities matched across all S1 entities
+total_s3_matches,3944746,-,Total Source 3 entities matched across all S1 entities
+total_matches,7638365,-,Total entity links established in ground truth
+unique_matched_entities,7638365,-,Distinct target entity IDs (S2 + S3) matched
+targets_with_multiple_s1_matches,0,0.00%,Count of S2/S3 entities linked to more than one S1 entity

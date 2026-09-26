@@ -1,0 +1,7 @@
+file_name,total_rows,empty_count,empty_pct,unique_count,duplicate_count,min_length,avg_length,max_length
+train_source1.tsv,2206821,0,0.00%,2130606,76215,11,52.07,256
+train_source2.tsv,5034616,168967,3.36%,4337261,528388,8,47.83,249
+train_source3.tsv,5285603,175916,3.33%,4632764,476923,2,48.32,240
+test_source1.tsv,1732544,0,0.00%,1677483,55061,11,57.21,268
+test_source2.tsv,4887273,129408,2.65%,4224783,533082,5,51.78,269
+test_source3.tsv,5082316,136098,2.68%,4456435,489783,5,50.08,267

@@ -1,0 +1,6 @@
+experiment_id,experiment_name,candidate_recall_overall,candidate_recall_s2,candidate_recall_s3,s1_coverage,candidate_mean,candidate_median,candidate_p95,candidate_p99,pct_zero_candidates,reduction_ratio,reduction_percentage,runtime_sec,peak_memory_mb
+EXP-001,Experiment A: Exact Normalized Name,0.5084,0.5175,0.4997,0.1587,2.37,2.0,6.0,14.0,14.71,65101.3,99.9985,1.37,993.08
+EXP-002,Experiment B: Name + Address Blocking,0.795,0.786,0.8035,0.5221,24.81,7.0,112.0,208.01,3.05,6231.0,99.984,0.98,1036.79
+EXP-003,Experiment C: Multi-Block Union (Broad),0.9131,0.9044,0.9213,0.7752,164.29,106.0,473.0,613.01,0.25,941.0,99.8937,4.17,1186.62
+EXP-004,Experiment D: Multi-Block Union + Candidate Refinement (Threshold 0.15),0.8788,0.8688,0.8883,0.7146,31.32,47.0,50.0,50.0,0.66,4936.5,99.9797,18.63,1096.09
+EXP-005,Experiment E: Multi-Block Union + Stringent Refinement (Threshold 0.25),0.8688,0.8594,0.8776,0.6914,13.61,8.0,30.0,30.0,1.58,11362.8,99.9912,19.28,1098.18

@@ -1,0 +1,330 @@
+{
+  "total_true_links": 34596,
+  "total_missing_links": 4192,
+  "missing_rate_pct": 12.12,
+  "loss_breakdown": {
+    "BLOCKING_MISS": {
+      "count": 3006,
+      "percentage_of_missing": 71.71,
+      "percentage_of_all_true_links": 8.69
+    },
+    "REFINEMENT_MISS": {
+      "count": 824,
+      "percentage_of_missing": 19.66,
+      "percentage_of_all_true_links": 2.38
+    },
+    "TOP_K_MISS": {
+      "count": 362,
+      "percentage_of_missing": 8.64,
+      "percentage_of_all_true_links": 1.05
+    },
+    "COUNTRY_FILTER_MISS": {
+      "count": 0,
+      "percentage_of_missing": 0.0,
+      "percentage_of_all_true_links": 0.0
+    },
+    "OTHER": {
+      "count": 0,
+      "percentage_of_missing": 0.0,
+      "percentage_of_all_true_links": 0.0
+    }
+  },
+  "samples": {
+    "BLOCKING_MISS": [
+      {
+        "s1_id": "S1-394680937",
+        "target_id": "S2-373660175",
+        "s1_name": "Royal Developers Private Limited",
+        "target_name": "@r0yaldevelopers",
+        "s1_address": "Xii/682, Kottilil Complex, Thrissur Road, Kechery P.O.Kechery, Choondal Gramapanchayath, Thrissur, Kerala",
+        "target_address": "XII/82, KOTTILIL COMPLEX, THRISSUR ROAD, KECHERY P.O.KECHERY, THRISSUR, Kerala",
+        "s1_country": "INDIA",
+        "target_country": "INDIA"
+      },
+      {
+        "s1_id": "S1-180956762",
+        "target_id": "S3-899318682",
+        "s1_name": "Orane Brothers Limited",
+        "target_name": "Ectonyla dba Orane Brothers Limited",
+        "s1_address": "Dharmshinka Villa Plot No. 387/407 Rsc 26, Near St. Rocks School, Goari 2, Borivali W, Mumbai, Mumbai City, Maharashtra",
+        "target_address": "Maharashtra, Near St. Rocks School, Goari 2, Borivali W, Dharmshinka Villa Plot No. 387/407 Rsc 26, Mumbai, Mumbai City",
+        "s1_country": "INDIA",
+        "target_country": "INDIA"
+      },
+      {
+        "s1_id": "S1-180956762",
+        "target_id": "S3-861882523",
+        "s1_name": "Orane Brothers Limited",
+        "target_name": "Orane 8rothers",
+        "s1_address": "Dharmshinka Villa Plot No. 387/407 Rsc 26, Near St. Rocks School, Goari 2, Borivali W, Mumbai, Mumbai City, Maharashtra",
+        "target_address": "Dharmshinka Villa Plot No. #387/407 Rsc 26, Mumbai Suburban, Mumbai City, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+        "s1_country": "INDIA",
+        "target_country": "INDIA"
+      },
+      {
+        "s1_id": "S1-704568959",
+        "target_id": "S3-217435873",
+        "s1_name": "Tova Inc",
+        "target_name": "Tv Tv Inc",
+        "s1_address": "501 Elton Court, Smithtown, NY",
+        "target_address": "00501 Elton Court, Smithtown, New York",
+        "s1_country": "US",
+        "target_country": "US"
+      },
+      {
+        "s1_id": "S1-379191085",
+        "target_id": "S2-704711118",
+        "s1_name": "Gold Enterprises Private Limited",
+        "target_name": "\u0917\u094b\u0932\u094d\u0921 \u090f\u0902\u091f\u0930\u092a\u094d\u0930\u093e\u0907\u091c\u0947\u091c \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+        "s1_address": "Uttar Pradesh, Gautam Buddha Nagar, Greater Noida, Tugalpur, Metro Piller No.P-828 Near Pari Chowk, Office No.18",
+        "target_address": "OFFICE NO.18, GAUTAM BUDDHA NAGAR, GREATER NOIDA, Uttar Pradesh",
+        "s1_country": "INDIA",
+        "target_country": "INDIA"
+      },
+      {
+        "s1_id": "S1-379191085",
+        "target_id": "S3-790614096",
+        "s1_name": "Gold Enterprises Private Limited",
+        "target_name": "Wexnex One t/a Gold Enterprises Private Limited",
+        "s1_address": "Uttar Pradesh, Gautam Buddha Nagar, Greater Noida, Tugalpur, Metro Piller No.P-828 Near Pari Chowk, Office No.18",
+        "target_address": "Office No.18, Tugalpur, Metro Piller No.P-828 Near Pari Chowk, Greater Noida, Gautam Buddha Nagar, Uttar Pradesh",
+        "s1_country": "INDIA",
+        "target_country": "INDIA"
+      },
+      {
+        "s1_id": "S1-638710413",
+        "target_id": "S2-164337155",
+        "s1_name": "First International Private Limited",
+        "target_name": "Shri First  International Private Ltd",
+        "s1_address": "C/O. Neeta Bhardwaj, Bharat Colony, Faridabad, Haryana",
+        "target_address": "C/O. NEETA BHARDWAJ, BHARAT COLONY, FARIDABAD, Haryana",
+        "s1_country": "INDIA",
+        "target_country": "INDIA"
+      },
+      {
+        "s1_id": "S1-638710413",
+        "target_id": "S2-474004689",
+        "s1_name": "First International Private Limited",
+        "target_name": "Mr FIRST INTERNATIONAL PRIVATE",
+        "s1_address": "C/O. Neeta Bhardwaj, Bharat Colony, Faridabad, Haryana",
+        "target_address": "",
+        "s1_country": "INDIA",
+        "target_country": "INDIA"
+      },
+      {
+        "s1_id": "S1-638710413",
+        "target_id": "S3-78837216",
+        "s1_name": "First International Private Limited",
+        "target_name": "First Private Limited Center",
+        "s1_address": "C/O. Neeta Bhardwaj, Bharat Colony, Faridabad, Haryana",
+        "target_address": "C/o. Neeta Bhardwaj, Bharat Colony, Faridabad, HR",
+        "s1_country": "INDIA",
+        "target_country": "INDIA"
+      },
+      {
+        "s1_id": "S1-638710413",
+        "target_id": "S2-470680145",
+        "s1_name": "First International Private Limited",
+        "target_name": "\u092b\u0930\u094d\u0938\u094d\u091f \u0907\u0902\u091f\u0930\u0928\u0947\u0936\u0928\u0932 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+        "s1_address": "C/O. Neeta Bhardwaj, Bharat Colony, Faridabad, Haryana",
+        "target_address": "C/O. NEETA BHARDWAJ, BHARAT COLONY, FARIDABAD, \u0939\u0930\u093f\u092f\u093e\u0923\u093e",
+        "s1_country": "INDIA",
+        "target_country": "INDIA"
+      }
+    ],
+    "REFINEMENT_MISS": [
+      {
+        "s1_id": "S1-665341197",
+        "target_id": "S3-635931423",
+        "score": 0.125,
+        "strategies": [
+          "address_exact_combo"
+        ],
+        "s1_name": "Onyx, Inc",
+        "target_name": "Oo,y Inc",
+        "s1_address": "7605 Crescent Lake Court, Fort Worth, TX",
+        "target_address": "7605 Crescent Lake Court, Fort Worth, Texas"
+      },
+      {
+        "s1_id": "S1-713849343",
+        "target_id": "S2-92149960",
+        "score": 0.13,
+        "strategies": [
+          "address_exact_combo"
+        ],
+        "s1_name": "Swastik Bharat Software Pvt Ltd",
+        "target_name": "\u0ab8\u0acd\u0ab5\u0ab8\u0acd\u0aa4\u0abf\u0a95 \u0aad\u0abe\u0ab0\u0aa4 \u0ab8\u0acb\u0aab\u0acd\u0a9f\u0ab5\u0ac7\u0ab0 \u0aaa\u0acd\u0ab0\u0abe. \u0ab2\u0abf.",
+        "s1_address": "Behind Varsa Society, Bhavnagar, Subhashnagar, Block No-16, Bhavnagar, Gujarat",
+        "target_address": "BEHIND VARSA SLCIETY, SUBHASHNAGAR, BLOCK NO-16, BHAVNAGAR, Gujarat"
+      },
+      {
+        "s1_id": "S1-713849343",
+        "target_id": "S2-108940194",
+        "score": 0.13,
+        "strategies": [
+          "address_exact_combo"
+        ],
+        "s1_name": "Swastik Bharat Software Pvt Ltd",
+        "target_name": "\u0ab8\u0acd\u0ab5\u0ab8\u0acd\u0aa4\u0abf\u0a95 \u0aad\u0abe\u0ab0\u0aa4 \u0ab8\u0acb\u0aab\u0acd\u0a9f\u0ab5\u0ac7\u0ab0 \u0aaa\u0acd\u0ab0\u0abe. \u0ab2\u0abf.",
+        "s1_address": "Behind Varsa Society, Bhavnagar, Subhashnagar, Block No-16, Bhavnagar, Gujarat",
+        "target_address": "BEHIND VARSA SOCIETY, SUBHASHNAGAR, BLOCK NO-16, BHAVNAGAR, \u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4"
+      },
+      {
+        "s1_id": "S1-348428449",
+        "target_id": "S2-432433437",
+        "score": 0.1333,
+        "strategies": [
+          "address_exact_combo"
+        ],
+        "s1_name": "Logan & Patterson Corp",
+        "target_name": "Evoecto | www.evoecto.com",
+        "s1_address": "3233 Deer Trail, Unit A, Cortland, OH",
+        "target_address": "3233 DEER TRL, CORTLAND, OH"
+      },
+      {
+        "s1_id": "S1-21350492",
+        "target_id": "S3-505795970",
+        "score": 0.1167,
+        "strategies": [
+          "address_exact_combo"
+        ],
+        "s1_name": "Citadel LLC",
+        "target_name": "Ariafluxkor",
+        "s1_address": "6404 Courtyards Drive, Mckinney, TX",
+        "target_address": "6404 Courtyards Dr, Mckinney, Texas"
+      },
+      {
+        "s1_id": "S1-382093353",
+        "target_id": "S3-932080856",
+        "score": 0.1167,
+        "strategies": [
+          "address_exact_combo"
+        ],
+        "s1_name": "Unique Services Private Limited",
+        "target_name": "\u092f\u0942\u0928\u093f\u0915 \u0938\u0930\u094d\u0935\u093f\u0938\u0947\u091c \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+        "s1_address": "Flat No. 302, Plot No. 135, Sec 5 Ghansoli, Mumbai, Mumbai City, Maharashtra",
+        "target_address": "Flat No. 302, Plot No. 135, Sec 5 Ghansoli, Mumbai, Thane, MH"
+      },
+      {
+        "s1_id": "S1-768319151",
+        "target_id": "S3-430023930",
+        "score": 0.1083,
+        "strategies": [
+          "address_exact_combo"
+        ],
+        "s1_name": "Red Foods Limited",
+        "target_name": "\u0930\u0947\u0921 \u092b\u0942\u0921\u094d\u0938 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+        "s1_address": "H No.123, Mohalla Mishrana, Patiyali Kasganj, Patiali, Etah, Uttar Pradesh",
+        "target_address": "H.no 123, Mohalla Mishrana, Patiyali Kasganj, Patiali, Kasganj, \u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936"
+      },
+      {
+        "s1_id": "S1-509619174",
+        "target_id": "S3-383347475",
+        "score": 0.1441,
+        "strategies": [
+          "address_exact_combo"
+        ],
+        "s1_name": "White Industries Private Limited",
+        "target_name": "\u0935\u094d\u0939\u093e\u0907\u091f \u0907\u0902\u0921\u0938\u094d\u091f\u094d\u0930\u0940\u091c \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+        "s1_address": "Hn.173, Sf, Leftside, Sarpanch Ka Bara, Gali No.5 Mandawali Faizalpur, Op.Lakhi Public, Delhi, East Delhi, Delhi",
+        "target_address": "Hn.c-173, Sf, Leftside, Sarpanch Ka Bara, Gali No.5 Mandawali Faizalpur, Op.lakhi Public, East Delhi, Delhi, \u0926\u093f\u0932\u094d\u0932\u0940"
+      },
+      {
+        "s1_id": "S1-724318939",
+        "target_id": "S3-88378846",
+        "score": 0.1346,
+        "strategies": [
+          "address_exact_combo"
+        ],
+        "s1_name": "City Ace Logistics Private Limited",
+        "target_name": "\u0938\u093f\u091f\u0940 \u090f\u0938 \u0932\u0949\u091c\u093f\u0938\u094d\u091f\u093f\u0915\u094d\u0938 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+        "s1_address": "Flat No 401 Ved Vihar Apartment Buldg -7 Near Ved Bhawan Kothrud, Pune, Maharashtra",
+        "target_address": "Flat No 401 Ved Vihar Apartment Buldg -7 Near Ved Bhawan Kothrud, Pune, MH"
+      },
+      {
+        "s1_id": "S1-434067395",
+        "target_id": "S3-735023362",
+        "score": 0.125,
+        "strategies": [
+          "address_exact_combo"
+        ],
+        "s1_name": "Clear Consumer Products",
+        "target_name": "Zetaflux",
+        "s1_address": "1431 Piggott Avenue, East Saint Louis, IL",
+        "target_address": "1431 Piggott Avenue, East Saint Louis, Illinois"
+      }
+    ],
+    "TOP_K_MISS": [
+      {
+        "s1_id": "S1-53388236",
+        "target_id": "S3-615805206",
+        "score": 0.164,
+        "rank_in_scored": 332,
+        "total_candidates_above_threshold": 352
+      },
+      {
+        "s1_id": "S1-296563420",
+        "target_id": "S2-665964702",
+        "score": 0.15,
+        "rank_in_scored": 99,
+        "total_candidates_above_threshold": 99
+      },
+      {
+        "s1_id": "S1-130541668",
+        "target_id": "S2-672588213",
+        "score": 0.2118,
+        "rank_in_scored": 100,
+        "total_candidates_above_threshold": 119
+      },
+      {
+        "s1_id": "S1-175506821",
+        "target_id": "S3-673709403",
+        "score": 0.2274,
+        "rank_in_scored": 109,
+        "total_candidates_above_threshold": 197
+      },
+      {
+        "s1_id": "S1-224315204",
+        "target_id": "S2-151188579",
+        "score": 0.15,
+        "rank_in_scored": 248,
+        "total_candidates_above_threshold": 248
+      },
+      {
+        "s1_id": "S1-163487675",
+        "target_id": "S3-161581959",
+        "score": 0.15,
+        "rank_in_scored": 222,
+        "total_candidates_above_threshold": 222
+      },
+      {
+        "s1_id": "S1-979404370",
+        "target_id": "S3-75472299",
+        "score": 0.2489,
+        "rank_in_scored": 301,
+        "total_candidates_above_threshold": 306
+      },
+      {
+        "s1_id": "S1-84048402",
+        "target_id": "S2-616438580",
+        "score": 0.22,
+        "rank_in_scored": 59,
+        "total_candidates_above_threshold": 65
+      },
+      {
+        "s1_id": "S1-839572622",
+        "target_id": "S2-660182993",
+        "score": 0.15,
+        "rank_in_scored": 120,
+        "total_candidates_above_threshold": 120
+      },
+      {
+        "s1_id": "S1-839572622",
+        "target_id": "S2-314484973",
+        "score": 0.15,
+        "rank_in_scored": 119,
+        "total_candidates_above_threshold": 120
+      }
+    ]
+  }
+}

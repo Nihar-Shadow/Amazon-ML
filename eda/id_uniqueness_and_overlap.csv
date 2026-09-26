@@ -1,0 +1,13 @@
+scope,entity_file_a,entity_file_b,is_unique,total_count,unique_count,overlap_count,status
+within_file,train_source1.tsv,-,True,2206821,2206821,0,Unique S1- prefixed IDs
+within_file,train_source2.tsv,-,True,5034616,5034616,0,Unique S2- prefixed IDs
+within_file,train_source3.tsv,-,True,5285603,5285603,0,Unique S3- prefixed IDs
+within_file,test_source1.tsv,-,True,1732544,1732544,0,Unique S1- prefixed IDs
+within_file,test_source2.tsv,-,True,4887273,4887273,0,Unique S2- prefixed IDs
+within_file,test_source3.tsv,-,True,5082316,5082316,0,Unique S3- prefixed IDs
+cross_split,train_source1.tsv,test_source1.tsv,True,3939365,3939365,0,Zero overlap across splits
+cross_split,train_source2.tsv,test_source2.tsv,True,9921889,9921889,0,Zero overlap across splits
+cross_split,train_source3.tsv,test_source3.tsv,True,10367919,10367919,0,Zero overlap across splits
+gt_coverage,train_source1.tsv,train_ground_truth.tsv,True,2206821,2206821,2206821,100% exact S1 1-to-1 match
+gt_target_coverage,train_source2.tsv,train_ground_truth.tsv,True,5034616,3693619,3693619,73.36% S2 entities matched; 0 unknown S2 in GT
+gt_target_coverage,train_source3.tsv,train_ground_truth.tsv,True,5285603,3944746,3944746,74.63% S3 entities matched; 0 unknown S3 in GT

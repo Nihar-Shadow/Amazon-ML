@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Large Artifacts
+datasets/
+data_cache/
+output/
+*.tsv
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+eda/*_ids.txt
+
+# Caches and IDEs
+.pytest_cache/
+.qodo/
+.vscode/
+.idea/
+*.swp

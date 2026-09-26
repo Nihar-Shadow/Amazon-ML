@@ -1,0 +1,8 @@
+file_name,split,source,row_count,column_count,malformed_rows,file_size_mb
+train_source1.tsv,train,source1,2206821,4,0,200.34
+train_source2.tsv,train,source2,5034616,4,0,466.63
+train_source3.tsv,train,source3,5285603,4,0,480.37
+train_ground_truth.tsv,train,ground_truth,2206821,2,0,121.13
+test_source1.tsv,test,source1,1732544,4,0,166.91
+test_source2.tsv,test,source2,4887273,4,0,485.86
+test_source3.tsv,test,source3,5082316,4,0,482.56

@@ -1,0 +1,6 @@
+experiment_id,experiment_name,strategies_count,candidate_recall_overall,candidate_recall_s2,candidate_recall_s3,s1_coverage,candidate_mean,candidate_median,candidate_p95,candidate_p99,pct_zero_candidates,reduction_ratio,reduction_percentage,runtime_sec,peak_memory_mb
+EXP-004-VERIFY,"EXP-004 Baseline (7 strategies, K=50)",7,0.8802,0.8704,0.8896,0.7174,31.33,47.5,50.0,50.0,0.66,4934.3,99.9797,20.8,1140.31
+EXP-010,EXP-010: Baseline + Leetspeak Normalization View,8,0.8804,0.8705,0.8897,0.7176,31.33,47.5,50.0,50.0,0.66,4934.2,99.9797,18.6,1142.79
+EXP-011,EXP-011: Baseline + DBA/Trade-Name Alias Extraction,8,0.8802,0.8704,0.8896,0.7174,31.33,47.5,50.0,50.0,0.66,4934.3,99.9797,19.02,1141.04
+EXP-012,EXP-012: Baseline + Salient Address Locality Combo,8,0.8831,0.8725,0.893,0.7246,31.36,48.0,50.0,50.0,0.66,4930.0,99.9797,19.33,1154.59
+EXP-013,"EXP-013: Hardened Multi-Block Pipeline (All 10 Strategies, K=50)",10,0.8832,0.8726,0.8932,0.7248,31.36,48.0,50.0,50.0,0.66,4929.9,99.9797,20.73,1158.23
